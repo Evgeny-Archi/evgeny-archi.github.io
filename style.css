@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Teko', sans-serif;
+	background: #222;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-txt {
+	font-size: 180px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	color: rgb(207, 207, 207);
+	text-transform: uppercase;
+	text-shadow: 
+	/* 3d layer */
+	0px 0px 1px rgb(167, 167, 167),
+	0px 1px 1px rgb(167, 167, 167),
+	0px 2px 1px rgb(167, 167, 167),
+
+	1px 1px 1px rgb(167, 167, 167),
+	1px 2px 1px rgb(167, 167, 167),
+	1px 3px 1px rgb(167, 167, 167),
+
+	2px 2px 1px rgb(167, 167, 167),
+	2px 3px 1px rgb(167, 167, 167),
+	2px 4px 1px rgb(167, 167, 167),
+
+	/* long bottom */
+	1px 10px 30px rgba(0,0,0, .8),
+	1px 10px 70px rgba(0,0,0, .8),
+
+	/* short bottom */
+	0px 5px 5px rgba(0,0,0, .8),
+
+	/* left */
+	-5px 5px 20px rgba(0,0,0, .8),
+	/* right */
+	5px 5px 20px rgba(0,0,0, .8),
+
+	/* white shadow */
+	1px 1px 120px rgba(160,203,255, .5);
+}
